@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="my website">
+        <title>Order Page</title>
+        <link rel="stylesheet" href="../style/Website.css">
+    </head>
+    <body>
+      <div id="order">
+        <header>
+            <nav class="navbar">
+                <div class="navdiv">
+                    <div class="logo">
+                        <a href="file:///C:/Users/HP/Documents/SHERYL%20ASSIGNMENT/index.html">
+                            <img src="../image/GROCIES LOGO.png" alt="logo" class="logo-img">
+                        </a>
+                    </div>
+                    <ul>
+                        <li><a href="file:///C:/Users/HP/Documents/SHERYL%20ASSIGNMENT/index.html">Home</a></li>
+                        <li><a href="file:///C:/Users/HP/Documents/SHERYL%20ASSIGNMENT/html%20websites/Aboutuspage.html">About</a></li>
+                        <li class="dropdown">
+                            <a class="dropbtn">Products</a>
+                            <div class="dropdown-content">
+                                <a href="file:///C:/Users/HP/Documents/SHERYL%20ASSIGNMENT/html%20websites/dairy.html">Dairy Products</a>
+                                <a href="file:///C:/Users/HP/Documents/SHERYL%20ASSIGNMENT/html%20websites/vegetables.html">Vegetables</a>
+                                <a href="file:///C:/Users/HP/Documents/SHERYL%20ASSIGNMENT/html%20websites/SkincareandCosmetics.html">Skincare and Cosmetics</a>
+                            </div>
+                        </li>
+                        <li><a href="file:///C:/Users/HP/Documents/SHERYL%20ASSIGNMENT/html%20websites/Orderpage.html">Order</a></li>
+                        <li><a href="file:///C:/Users/HP/Documents/SHERYL%20ASSIGNMENT/html%20websites/Loyaltyregistration.html">Loyalty.R</a></li>    
+                    </ul>
+                    <div class="nav-buttons">
+                      <a href="file:///C:/Users/HP/Documents/SHERYL%20ASSIGNMENT/html%20websites/Loginpage.html" class="button-nav">Login</a>
+                      <a href="file:///C:/Users/HP/Documents/SHERYL%20ASSIGNMENT/html%20websites/Loyaltyregistration.html" class="button-nav">Signup</a><!--Signup Button -->
+                  </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="billing-Container">
+    <section id=ba class="billing">
+        <br>
+        <h1><u>Billing Address</u></h1>   
+        <br>   
+        <br>
+        <form>
+            <label for="fname">First Name (max 30 characters a-z and A-Z):</label><br>
+            <input type="text" name="fname" maxlength="30" required="required">
+        <br>
+        <br>
+        <label for="lname">Last Name (max 30 characters a-z and A-Z):</label><br>
+            <input type="text" name="lname" maxlength="30" required="required">
+        <br>
+        <label for="address">Address:</label><br>
+        <textarea cols="70" rows="10" name="address"></textarea>
+        <br>
+        <br>
+        <label for="city">City (max 50 characters a-z and A-Z):</label><br>
+        <input type="text" name="city" required="required" maxlength="50">
+        <br>
+        <br>
+        <label for="state">State:</label><br>
+        <textarea cols="70" rows="5" name="address"></textarea>
+        <br>
+        </form>
+        <br>
+        <h1><u>Payment Details</u></h1>   
+        <br>   
+        <br>
+        <form>
+            <label for="cname">Name On Card (max 26 characters a-z and A-Z):</label><br>
+            <input type="text" name="cname" maxlength="26" required="required">
+        <br> 
+        <label for="ccnumber">Credit Card Number (max 16 digits):</label><br>
+            <input type="password" name="ccnumber" maxlength="16" required="required">
+            <br>     
+            <label for="expiry">Expiry:</label><br>
+        <input type="date" name="expiry" required="required">
+        <br>
+        <label for="cvv"> card verification value (max 4 digits):</label><br>
+            <input type="text" name="cvv" maxlength="4" required="required">
+        <br>
+        <br>
+        <br>
+        <input type="submit" name="submit">    
+    </section>
+
+<div id="cart-Container">
+    <section id=c class="cart">
+        <br>
+        <h1><u>Cart</u></h1>   
+        <br>   
+        <br>
+        <form>
+            <p><a href="#">Product 1</a> <span class="price">$15</span></p>
+            <p><a href="#">Product 2</a> <span class="price">$5</span></p>
+            <p><a href="#">Product 3</a> <span class="price">$8</span></p>
+            <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+            <hr>
+            <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+        </form>
+        </section>
+</div>
+</div>
+      </div>
+      <br>
+  <br>
+  <footer>
+    <div class="footer-container">
+      <div class="footer">
+        <div class="footer-section">
+          <p>GROCIES SUPERMARKET</p>
+          <address>
+            123 Main Street<br>
+            Anytown, CA 12345<br>
+            <a href="tel:+1234567890">+1 (234) 567-890</a>
+          </address>
+        </div>
+        <div class="footer-section">
+          <p>About Us</p>
+          <ul>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <p>Resources</p>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section" id="sm">
+          <p>Follow Us on: </p>
+          <br>
+          <a href="https://www.instagram.com/your_instagram_handle"><img src="../image/instagram.png" alt="Instagram Icon"></a>
+          <a href="https://www.tiktok.com/@your_tiktok_username"><img src="../image/tiktok.png" alt="TikTok Icon"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  </body>
+  </html>
